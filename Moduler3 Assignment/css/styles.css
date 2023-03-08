@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(196, 16, 16);
+}
+#header-nav{
+    background-color: rgb(245, 170, 58);
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand>h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: brown;
+
+}
+
+
+#head{
+    text-align: center;
+    font-size: 300%;
+    
+}
+hr{
+    color: rgb(248, 7, 7);
+}
+li{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 1vw;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    height: 1000px;
+    font-size: 200%;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid rgb(236, 9, 9);
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    
+  }
+
+ 
+@media (min-width: 1200px){
+.navbar-brand h1{
+    font-size: 2vw;
+}
+
+#main-content{
+    position: relative;
+    top: 4vw;
+}
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    #main-content{
+        position: relative;
+        top: 6vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #main-content{
+        position: relative;
+        top: 7vw;
+    }
+   
+}
+@media (max-width: 768px){
+    #main-content{
+        position: relative;
+        top: 10vw;
+    }
+    #collapsable-nav{
+        background-color: rgb(235, 247, 133);
+        clear: both;
+        position: relative;
+        bottom: 5.3vw;
+    }
+    button.navbar-toggle.collapsed{
+        position: relative;
+        bottom: 6vw;
+    }
+    
+    button.navbar-toggle{
+        position: relative;
+        bottom: 6vw;
+    }
+    nav#header-nav.navbar.navbar-default.navbar-fixed-top{
+        height: 8vw;
+    }
+
+#header-nav > div > div.navbar-header{
+    height: 8vw;
+}
+
+}
